@@ -10,6 +10,9 @@ export default {
         fadeIn: 'fadeIn 0.6s ease-in-out',
         fadeInOut: 'fadeInOut 4s ease-in-out forwards',
       },
+       fontFamily: {
+      sans: ['Unbounded', 'system-ui', 'sans-serif'],
+    },
       keyframes: {
         fadeIn: {
           '0%, 49.99%': {
