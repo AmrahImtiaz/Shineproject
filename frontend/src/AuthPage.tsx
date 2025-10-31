@@ -104,7 +104,7 @@ const AuthPage: React.FC = () => {
             <input type="password" name="password" placeholder="Password" required
               className="w-full bg-gray-200 text-black placeholder-black px-4 py-2 text-sm rounded-md mb-2 outline-none" />
             <button type="submit"
-              className="bg-[#002f34] text-[#dff0d8] uppercase text-xs py-2 px-12 mt-3 rounded-md font-semibold tracking-wide">Sign Up</button>
+              className="bg-[#0E5DC2] text-[#dff0d8] uppercase text-xs py-2 px-12 mt-3 rounded-md font-semibold tracking-wide">Sign Up</button>
           </form>
         </div>
 
@@ -117,7 +117,7 @@ const AuthPage: React.FC = () => {
             <input type="password" name="password" placeholder="Password" required
               className="w-full bg-gray-200 text-black placeholder-black px-4 py-2 text-sm rounded-md mb-2 outline-none" />
             <button type="submit"
-              className="bg-[#002f34] text-[#dff0d8] uppercase text-xs py-2 px-12 mt-3 rounded-md font-semibold tracking-wide">Login</button>
+              className="bg-[#0E5DC2] text-[#dff0d8] uppercase text-xs py-2 px-12 mt-3 rounded-md font-semibold tracking-wide">Login</button>
           </form>
         </div>
 
@@ -130,14 +130,14 @@ const AuthPage: React.FC = () => {
 
         {/* Toggle Container */}
         <div className={`absolute top-0 left-1/2 h-full w-1/2 overflow-hidden transition-all duration-500 z-[1000] ${!isLogin ? 'translate-x-[-100%] rounded-r-[100px]' : 'rounded-l-[150px]'}`}>
-          <div className={`bg-[#002f34] h-full w-[200%] text-white absolute left-[-100%] flex transition-all duration-500 ${!isLogin ? 'translate-x-1/2' : ''}`}>
+          <div className={`bg-[#0E5DC2] h-full w-[200%] text-white absolute left-[-100%] flex transition-all duration-500 ${!isLogin ? 'translate-x-1/2' : ''}`}>
 
             {/* Toggle Left Panel */}
             <div className={`w-1/2 h-full flex flex-col justify-center items-center text-center px-6 transition-all duration-500 ${!isLogin ? 'translate-x-0' : '-translate-x-[200%]'}`}>
               <h2 className="text-2xl font-semibold mb-2">Welcome Back!</h2>
               <p className="text-sm mb-4">Login with your personal info</p>
               <button onClick={toggleMode}
-                className="bg-white text-[#002f34] text-xs uppercase py-2 px-6 rounded-md font-semibold tracking-wide">Sign In</button>
+                className="bg-white text-[#0E5DC2] text-xs uppercase py-2 px-6 rounded-md font-semibold tracking-wide">Sign In</button>
             </div>
 
             {/* Toggle Right Panel */}
@@ -145,7 +145,7 @@ const AuthPage: React.FC = () => {
               <h2 className="text-2xl font-semibold mb-2">Hello, Friend!</h2>
               <p className="text-sm mb-4">Start your journey by signing up</p>
               <button onClick={toggleMode}
-                className="bg-white text-[#002f34] text-xs uppercase py-2 px-6 rounded-md font-semibold tracking-wide">Sign Up</button>
+                className="bg-white text-[#0E5DC2] text-xs uppercase py-2 px-6 rounded-md font-semibold tracking-wide">Sign Up</button>
             </div>
 
           </div>
