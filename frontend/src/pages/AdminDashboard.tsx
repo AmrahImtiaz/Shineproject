@@ -127,8 +127,8 @@ const AdminDashboard: React.FC = () => {
       <aside className="w-[250px] bg-[#002f34] text-white p-6 flex flex-col items-center flex-shrink-0 min-h-screen">
         <h2 className="text-2xl mb-8 text-center">Admin Panel</h2>
         <div className="text-center mb-10">
-          <div className="w-[60px] h-[60px] bg-[#27ae60] rounded-full flex items-center justify-center mx-auto text-2xl font-bold">
-            {fullName[0]?.toUpperCase()}
+          <div className="w-[60px] h-[60px] bg-[url(https://i.pinimg.com/736x/36/15/65/361565e301902ace6552cf5a93806138.jpg)] bg-cover bg-center rounded-full flex items-center justify-center mx-auto text-2xl font-bold">
+           
           </div>
           <h3 className="mt-2 text-lg">{fullName}</h3>
         </div>

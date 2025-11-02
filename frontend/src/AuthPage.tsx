@@ -88,7 +88,7 @@ const AuthPage: React.FC = () => {
   };
 
   return (
-    <div className="w-screen h-screen bg-[#f8fafc] text-[#333] overflow-y-auto p-6 md:p-10 font-['Unbounded'] flex items-center justify-center">
+    <div className="w-screen h-screen bg-[url(https://cdn.pixabay.com/photo/2019/11/12/15/47/leaves-4621334_1280.jpg)] bg-cover text-[#333] overflow-y-auto p-6 md:p-10 font-['Unbounded'] flex items-center justify-center">
       <div className={`relative overflow-hidden w-[768px] max-w-full min-h-[480px] bg-white rounded-[30px] shadow-[0_5px_15px_rgba(0,0,0,0.35)] transition-all duration-500 ${!isLogin ? 'active' : ''}`}>
 
         {/* Sign Up Form */}

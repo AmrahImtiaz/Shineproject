@@ -67,8 +67,8 @@ const Dashboard: React.FC = () => {
       <aside className="w-[250px] bg-[#102d3f] text-white p-6 flex flex-col items-center flex-shrink-0 min-h-screen">
         <h2 className="text-2xl mb-8 text-center">Task Manager</h2>
         <div className="text-center mb-10">
-          <div className="w-[60px] h-[60px] bg-[#27ae60] rounded-full flex items-center justify-center mx-auto text-2xl font-bold">
-            {user.fullName ? user.fullName[0].toUpperCase() : user.email[0]?.toUpperCase()}
+          <div className="w-[60px] h-[60px] bg-[url(https://i.pinimg.com/736x/07/94/62/079462da32cb56002a1a829914436769.jpg)] bg-center bg-cover rounded-full flex items-center justify-center mx-auto text-2xl font-bold">
+         
           </div>
           <h3 className="mt-2 text-lg">{user.fullName || user.email}</h3>
           <p className="text-sm text-gray-300">{user.email}</p>
