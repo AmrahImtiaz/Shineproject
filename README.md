@@ -12,20 +12,16 @@ Code Quality: SonarQube
 Version Control: Git & GitHub
 
 ## Key Features
-### User Authentication & Authorization
+User Authentication & Authorization
+Task Management
+Application Logging (Serilog)
+Database & Data Access
+Exception Handling
+Unit Testing (xUnit)
+Code Quality (SonarQube)
+React Frontend
 
-### Task Management
 
-### Application Logging (Serilog)
 
-### Database & Data Access
-
-### Exception Handling
-
-### Unit Testing (xUnit)
-
-### Code Quality (SonarQube)
-
-### React Frontend
 
 
