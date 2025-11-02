@@ -1,69 +1,77 @@
-﻿# Task Management Tool
-for 10Pearls Shine Program 
-.Net Internship
+🧩 Task Management Tool
 
-## Key Features
-•
-User Authentication & Authorization
-•
-Implement user registration and login functionality.
-•
-Define roles (e.g., admin, regular user) and restrict access based on roles.
-•
-Task Management
-•
-Create, read, update, and delete tasks.
-•
-Assign tasks to users and set task priorities.
-•
-Categorize tasks and add due dates.
-•
-Application Logging using Serilog
-•
-Implement logging throughout the application using Serilog.
-•
-Log important events, errors, and user activities.
-•
-Entity Framework and SQL Database
-•
-Use Entity Framework for data access.
-•
-Design a SQL database schema to store user information, tasks, and related data.
-•
-Exception Handling
-•
-Implement global exception handling to gracefully handle errors and provide meaningful error messages to users.
-•
-Log exceptions using Serilog.
-•
-Unit Testing using xUnit
-•
-Write unit tests to cover critical parts of the application.
-•
-Test controllers, services, and data access layers.
-•
-SonarQube Integration
-•
-Integrate SonarQube to analyze code quality and identify potential issues.
-•
-Configure rules for the C# and JavaScript code.
-•
-React.js Frontend
-•
-Use React.js for the frontend to create an interactive and responsive user interface.
-•
-Implement a dashboard to display tasks, user profile, and other relevant information.
-•
-Git Version Control
-•
-Utilize Git for version control.
-•
-Encourage the use of branching and merging strategies.
-•
-Additional Features (Optional)
-•
-Real-time Updates: Implement real-time updates for task status using SignalR.
-•
-Export/Import: Allow users to export tasks to a file and import tasks from a file.
-•
-Search and Filter: Implement search and filter functionalities for tasks.
+Built for the 10Pearls Shine Program (.NET Internship)
+
+A full-stack task management web application designed to help users efficiently organize, track, and manage tasks with role-based access and real-time collaboration.
+
+🚀 Tech Stack
+
+Backend: ASP.NET Core • Entity Framework Core • SQL Server
+Frontend: React.js
+Logging: Serilog
+Testing: xUnit
+Code Quality: SonarQube
+Version Control: Git & GitHub
+
+🔑 Key Features
+🧍‍♂️ User Authentication & Authorization
+
+Secure user registration and login functionality
+
+Role-based access control (Admin, Regular User)
+
+Restrict and manage permissions using ASP.NET Identity
+
+✅ Task Management
+
+Full CRUD operations for tasks
+
+Assign tasks to users and set priorities
+
+Add categories, due dates, and status tracking
+
+Organized dashboard for easy task visibility
+
+🧾 Application Logging (Serilog)
+
+Integrated Serilog for structured application logging
+
+Logs important events, errors, and user activities
+
+Stores logs for monitoring, debugging, and audit trails
+
+🗄️ Database & Data Access
+
+Built using Entity Framework Core (Code-First)
+
+SQL Server used for relational data storage
+
+Well-defined models for Users, Tasks, and related entities
+
+⚙️ Exception Handling
+
+Global exception handling for graceful error recovery
+
+Provides user-friendly error messages
+
+All exceptions are logged using Serilog
+
+🧪 Unit Testing (xUnit)
+
+Comprehensive unit tests for controllers, services, and data layers
+
+Ensures stability and reduces regression bugs
+
+🔍 Code Quality (SonarQube)
+
+Integrated SonarQube for continuous code quality analysis
+
+Detects potential issues and enforces C# and JavaScript coding standards
+
+💻 React Frontend
+
+Built with React.js for a modern, responsive UI
+
+Interactive dashboard for managing tasks and profiles
+
+Smooth user experience with clean and intuitive design
