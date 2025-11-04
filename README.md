@@ -46,20 +46,21 @@ ShineProject/
 │   └── vite.config.ts
 │
 └── README.md
+```
 
-ShineProject/
-│
-├── Backend/                # ASP.NET Core Web API
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Data/
-│   ├── Properties/
-│   └── Program.cs
-│
-├── frontend/               # React + Vite + TypeScript
-│   ├── src/
-│   ├── public/
-│   └── vite.config.ts
-│
-└── README.md
+## Frontend Setup 
+
+```bash
+
+cd frontend
+npm install
+npm run dev
+
+```
+
+## Additional Information
+
+API (dev): http://localhost:5146
+Frontend (dev): http://localhost:5173
+
 
