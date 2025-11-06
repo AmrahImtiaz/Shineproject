@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AnalysisConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <SonarConfigDir>D:\Amrahimtiazproject\.sonarqube\conf</SonarConfigDir>
-  <SonarOutputDir>D:\Amrahimtiazproject\.sonarqube\out</SonarOutputDir>
-  <SonarBinDir>D:\Amrahimtiazproject\.sonarqube\bin</SonarBinDir>
-  <SonarScannerWorkingDirectory>D:\Amrahimtiazproject</SonarScannerWorkingDirectory>
+  <SonarConfigDir>D:\Amrahimtiazproject\Backend\.sonarqube\conf</SonarConfigDir>
+  <SonarOutputDir>D:\Amrahimtiazproject\Backend\.sonarqube\out</SonarOutputDir>
+  <SonarBinDir>D:\Amrahimtiazproject\Backend\.sonarqube\bin</SonarBinDir>
+  <SonarScannerWorkingDirectory>D:\Amrahimtiazproject\Backend</SonarScannerWorkingDirectory>
   <JavaExePath>C:\Users\PC\.sonar\cache\11a61a94d383e755b08b4e5890a13d148bc9f95b7149cbbeec62efb8c75a4a67\OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip_extracted\jdk-17.0.13+11-jre/bin/java.exe</JavaExePath>
   <EngineJarPath>C:\Users\PC\.sonar\cache\5370664af11ed9502c5e9da2fca3e7b2465b6b01c7248962ef899d0551837b42\sonar-scanner-engine-shaded-25.10.0.114319-all.jar</EngineJarPath>
   <UseSonarScannerCli>false</UseSonarScannerCli>
@@ -18,7 +18,7 @@
     <ConfigSetting Id="TfsUri" />
     <ConfigSetting Id="VsCoverageConverterToolPath" />
     <ConfigSetting Id="UnchangedFilesPath" />
-    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="D:\Amrahimtiazproject" />
+    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="D:\Amrahimtiazproject\Backend" />
     <ConfigSetting Id="settings.file.path" Value="C:\Users\PC\.dotnet\tools\.store\dotnet-sonarscanner\11.0.0\dotnet-sonarscanner\11.0.0\tools\netcoreapp3.1\any\SonarQube.Analysis.xml" />
   </AdditionalConfig>
   <ServerSettings>
@@ -157,8 +157,8 @@
   <AnalyzersSettings>
     <AnalyzerSettings>
       <Language>cs</Language>
-      <RulesetPath>D:\Amrahimtiazproject\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>D:\Amrahimtiazproject\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>D:\Amrahimtiazproject\Backend\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>D:\Amrahimtiazproject\Backend\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="10.15.0.120848" StaticResourceName="SonarAnalyzer-csharp-10.15.0.120848.zip">
           <AssemblyPaths>
@@ -168,13 +168,13 @@
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>D:\Amrahimtiazproject\.sonarqube\conf\cs\SonarLint.xml</Path>
+        <Path>D:\Amrahimtiazproject\Backend\.sonarqube\conf\cs\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
     <AnalyzerSettings>
       <Language>vbnet</Language>
-      <RulesetPath>D:\Amrahimtiazproject\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>D:\Amrahimtiazproject\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>D:\Amrahimtiazproject\Backend\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>D:\Amrahimtiazproject\Backend\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="vbnet" Version="10.15.0.120848" StaticResourceName="SonarAnalyzer-vbnet-10.15.0.120848.zip">
           <AssemblyPaths>
@@ -184,7 +184,7 @@
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>D:\Amrahimtiazproject\.sonarqube\conf\vbnet\SonarLint.xml</Path>
+        <Path>D:\Amrahimtiazproject\Backend\.sonarqube\conf\vbnet\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
   </AnalyzersSettings>
