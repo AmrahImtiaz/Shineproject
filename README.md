@@ -81,15 +81,17 @@ Backend API default URL:
 ```bash
 http://localhost:5146
 ```
-### X Unit Tests
+### X Unit Test Results
 
 <img width="793" height="324" alt="image" src="https://github.com/user-attachments/assets/c5c384ae-126f-435f-bc8b-ce782d0704b6" />
+<img width="2204" height="353" alt="image" src="https://github.com/user-attachments/assets/ef890d1a-8513-4d5c-a0ca-d43c61e81ad4" />
 
 
 ## Additional Information
 
 Frontend (dev): http://localhost:5173
 Backend : http://localhost:5146
+
 
 
 
