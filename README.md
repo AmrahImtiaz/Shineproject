@@ -58,9 +58,34 @@ npm run dev
 
 ```
 
+## Backend Setup 
+
+# Run EF Core Migrations
+```bash
+
+dotnet tool install --global dotnet-ef   # run once if not installed
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+```
+
+# Restore & Run
+```bash
+
+dotnet restore
+dotnet run
+
+```
+Backend API default URL:
+
+```bash
+http://localhost:5146
+```
+
 ## Additional Information
 
-API (dev): http://localhost:5146
 Frontend (dev): http://localhost:5173
+Backend : http://localhost:5146
+
 
 
